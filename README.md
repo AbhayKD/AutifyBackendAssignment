@@ -53,6 +53,5 @@ Details
 
 #### Steps to run
 
-- pipenv init
 - pipenv install
-- python main.py www.google.com
+- pipenv run python main.py https://www.google.com https://duckduckgo.com
