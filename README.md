@@ -12,10 +12,11 @@ For example if we invoked your program like this: `./fetch [https://www.google.c
 
 We should be able to specify as many urls as we want:
 
-> $> ./fetch https://www.google.com https://autify.com <...>
-> $> ls
-> autify.com.html www.google.com.html
-
+```
+$> ./fetch https://www.google.com https://autify.com <...>
+$> ls
+autify.com.html www.google.com.html
+```
 
 If the program runs into any errors while downloading the html it should print the error to the console.
 
@@ -31,12 +32,13 @@ Modify the script to print this metadata.
 
 For example (it can work differently if you like)
 
-> $> ./fetch --metadata https://www.google.com
-> site: www.google.com
-> num_links: 35
-> images: 3
-> last_fetch: Tue Mar 16 2021 15:46 UTC
-
+```
+$> ./fetch --metadata https://www.google.com
+site: www.google.com
+num_links: 35
+images: 3
+last_fetch: Tue Mar 16 2021 15:46 UTC
+```
 
 Code structure
 ----
@@ -51,4 +53,6 @@ Details
 
 #### Steps to run
 
+- pipenv init
+- pipenv install
 - python main.py www.google.com

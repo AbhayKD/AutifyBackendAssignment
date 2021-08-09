@@ -33,7 +33,6 @@ def run(url):
         response = session.get(url)
         soup = BeautifulSoup(response.text, features='lxml')
         # page_folder_path = get_url_folder_path(url)
-        # images = soup.find_all('img', {'src':re.compile('.jpg')})
         filename = get_filename(url)
         metadata = extract_metadata_info(url, soup)
         with open(f'{filename}.html', 'w') as file:
