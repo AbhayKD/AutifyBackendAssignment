@@ -11,7 +11,7 @@
             "program": "/home/abhay/Documents/Python/Autify/main.py",
             "console": "integratedTerminal",
             // "args": ["https://www.google.com"]
-            "args": ["https://in.pinterest.com"]
+            "args": ["https://duckduckgo.com/"]
             // "args": ["https://en.wikipedia.org/wiki/Node.js", "--metadata"]
         }
     ]

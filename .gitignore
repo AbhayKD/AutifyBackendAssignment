@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+reads.js
+d_time.json
+dpcheck.js
+test.js
+log.json
+storeAlertLog.js
+alertUpdate.js
+tbd.js
+#localStuff
+local_tests/
+tmp.js
+#local testing
+#vscode
+.vscode/
+.idea/
+.venv/
+
+# test html files
+www.google.com.html
+duckduckgo.com.html
+.web_dwnld_metadata.json
